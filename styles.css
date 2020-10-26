@@ -1,0 +1,20 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #FFF;
+}
+
+.container {
+    width: 800px;
+    padding: 20px 50px 20px 50px;
+    margin: 0 auto;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+}
