@@ -1,20 +1,56 @@
 body {
     color: white;
     background-color: black;
-}
-
-h1 {
-    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("images/static.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h2 {
-    border-bottom: 1px solid #FFF;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #6a22b3;	
+    font-size: 3rem;
+    text-align: center;
+}
+
+.logo-header {
+    display: block;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.text-holder > h4, .text-holder > p {
+    display: inline-block;
+}
+
+.text-holder > h4 {
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .container {
     width: 800px;
-    padding: 20px 50px 20px 50px;
+    padding: 20px;
     margin: 0 auto;
-    border-right: 1px solid #FFF;
-    border-left: 1px solid #FFF;
+    background-color: black;
 }
+
+.game-entry {
+    border: 1px solid #FFF;
+    padding: 20px;
+}
+
+.image-holder, .image-holder > img {
+    display: inline-block;
+    width: 315px;
+}
+
+.text-holder {
+    display: inline-block;
+    width: 400;
+    vertical-align: top;
+}
+
